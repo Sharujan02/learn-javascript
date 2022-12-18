@@ -1,19 +1,18 @@
-// Setting up the the race 🏎 🏎 🏎
+// let name = 42
+// let greeting = "Hi, my name is "
+// let myGreeting = greeting + name
+// // console.log(myGreeting)
 
-console.log(5)
-console.log(4)
-console.log(3)
-console.log(2)
-console.log(1)
+// let points = 4
+// let bonusPoints = "10"
+// let totalPoints = points + bonusPoints
 
-// GO! 🏁
-// Players are running the race 🏎 💨
-// Race is finished! 🍾
+// console.log(points + bonusPoints)
 
-// Get ready for a new race 🏎 🏎 🏎
+let welcomeEl = document.getElementById("welcome-el")
+let name = "Sharujan Sriramasothy"
+let greeting = "Welcome back, "
 
-console.log(5)
-console.log(4)
-console.log(3)
-console.log(2)
-console.log(1)
+welcomeEl.innerText = greeting + name
+
+welcomeEl.innerText += "👋"
